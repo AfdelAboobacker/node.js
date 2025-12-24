@@ -1,0 +1,52 @@
+node js is run time environment  
+build in chrome v8 engine
+features:
+.asynchronous and non blocking
+.single-threaded event loop:
+.high performance
+.cross platform
+.npm (node package manager)
+.JavaScript everywhere
+.rich ecosystem
+.js everywhere
+.rich ecosystem
+.built in modules
+
+Advantages:
+⦁	fast execution
+⦁	real-time
+⦁	single language for frontend and backend
+⦁	module Architecture
+⦁	large community
+⦁	scalability
+⦁	JSON support
+
+node.js Modules:
+1.core module
+2.local module
+3.third-party module
+
+⦁	core modules
+ this are build in into node js
+ fs:file system
+http:create server and handle
+path:handle file paths
+url:parse url
+os:used get operating system info
+events:handle custom events
+
+
+fs:
+used to interact with file system-reading/writing files
+
+common methods:
+fs.mkdir():create directory
+fs.writeFile():create and write to a file
+fs.appendFile():append data to a file
+fs.readFile():read data from a file
+fs.unlink():delete a file
+fs.rmdir():remove a directory
+
+
+writeFile is asynchronous and non-blocking method
+writeFileSync is synchronous and blocking method
