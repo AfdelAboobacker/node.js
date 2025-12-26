@@ -50,3 +50,44 @@ fs.rmdir():remove a directory
 
 writeFile is asynchronous and non-blocking method
 writeFileSync is synchronous and blocking method
+
+
+
+HTTP serrver module:
+used to create server and handle requests and responses
+basic methods:
+http.createServer():create server
+req(incoming request):object containing request info
+res(outgoing response):object used to send response to client
+
+nodemon:
+a tool that helps develop node js based applications by automatically
+restarting the node application when file changes in the directory are detected
+
+path utility module:
+used to handle and transform file paths
+common methods:
+path.basename():get the last part of a path
+path.dirname():get the directory name of a path
+path.extname():get the file extension of a path
+path.parse():parse a path into its components
+path.join():join multiple path segments into a single path
+
+
+os(operating system) module:
+used to get operating system related info
+common methods:
+os.type():get the operating system name
+os.platform():get the operating system platform
+os.arch():get the architecture of the operating system
+os.uptime():get the system uptime in seconds
+os.freemem():get the amount of free system memory
+os.totalmem():get the total amount of system memory
+os.cpus():get info about each CPU/core installed
+
+
+url utilities:
+helps to parse and format URLs
+common methods:
+new URL():create a new URL object
+.hostname:get the hostname of the URL

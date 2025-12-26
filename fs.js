@@ -16,3 +16,40 @@ const fs = require("fs");
 //     console.log("appended");
     
 // })
+// =====================================================================================
+// fs.mkdir("folder",(err)=>{
+//     if (err) throw arrayBuffer;
+//     console.log('folder created');
+    
+// })
+
+// fs.writeFile("folder/text.txt"," ",(err)=>{
+//     if (err) throw arrayBuffer;
+//     console.log('file created');
+    
+// })
+
+// fs.appendFile("folder/text.txt","helooo ",(err)=>{
+//     if (err) throw arrayBuffer;
+//     console.log('file updated');
+    
+// })
+
+
+// fs.readFile("folder/text.txt",'utf8',(err,data)=>{
+//     if (err) throw arrayBuffer;
+//     console.log(data);
+    
+// })
+
+// fs.unlink("folder/text.txt",(err)=>{
+//     if (err) throw arrayBuffer;
+//     console.log("file deleted");
+    
+// })
+
+fs.appendFile("core_Module/text.txt","\nhow are you",(err)=>{
+    if (err) throw err;
+    console.log('folder updated');
+    
+})
