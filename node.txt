@@ -1,7 +1,7 @@
 node js is run time environment  
 build in chrome v8 engine
 features:
-.asynchronous and non blocking
+.asynchronous and non blocking: 
 .single-threaded event loop:
 .high performance
 .cross platform
@@ -77,7 +77,9 @@ path.join():join multiple path segments into a single path
 os(operating system) module:
 used to get operating system related info
 common methods:
-os.type():get the operating system name
+os.type():get the operating 
+
+ name
 os.platform():get the operating system platform
 os.arch():get the architecture of the operating system
 os.uptime():get the system uptime in seconds
@@ -91,3 +93,20 @@ helps to parse and format URLs
 common methods:
 new URL():create a new URL object
 .hostname:get the hostname of the URL
+
+events(EventEmitter);
+allow creation and custom events and listeners
+common methods:
+on():listen to events
+emit():trigger events
+
+local modules:
+it is a module created by the user in a project.
+#loacal modules are file we write and maintain in our project
+
+third party modules:
+these are external modules that can be installed via npm
+examples:
+⦁	express: web application framework
+⦁	mongoose: mongodb object modeling tool
+⦁	axios: promise based HTTP client
